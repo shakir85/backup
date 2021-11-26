@@ -10,4 +10,3 @@ git add info.txt
 git commit -m "$backup"
 git push origin master
 
-cd -
