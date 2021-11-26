@@ -2,8 +2,8 @@
 
 backup="$(tail -1 /var/log/syncdir/syncdir.log)"
 
-echo "$info" >> info.txt
-echo "$info"
+echo "$backup" >> info.txt
+echo "$backup"
 echo
 
 git add info.txt
