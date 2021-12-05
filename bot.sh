@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 backup="$(tail -1 /var/log/syncdir/syncdir.log)"
 
